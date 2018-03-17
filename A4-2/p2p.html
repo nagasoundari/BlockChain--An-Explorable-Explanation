@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="p2pscript.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Peer to Peer</title>
+</head>
+<body>
+    <div>
+        <div class="title" id="p2ptitle">Distributed  BlockChain </div>
+
+        <img src="images/girl.png" alt="Girl1" class="girlpp1">
+        <img src="images/boy.png" alt="Boy1" class="boypp1">
+        <img src="images/girl1.png" alt="Girl2" class="girlpp2">
+        <img src="images/boy1.png" alt="Boy2" class="boypp2">
+
+        <div class="blockchain-a">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+        </div>
+        <div class="blockchain-b">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+        </div>
+        <div class="blockchain-c">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+        </div>
+        <div class="blockchain-d">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+            <img src="images/chain.png" alt="cube" class="chain">
+            <img src="images/cubes.jpg" alt="cube" class="cube">
+        </div>
+
+
+        <div class="hide" id="createblock">
+            <img src="images/redcube.png" alt="newblock1"  id="newblock1">
+            <img src="images/redcube.png" alt="newblock2"  id="newblock2">
+            <img src="images/redcube.png" alt="newblock3"  id="newblock3">
+            <img src="images/redcube.png" alt="newblock4"  id="newblock4">
+        </div>
+
+        <div class="hide" id="connectchain">
+            <img src="images/chain.png" alt="cube" id="chain1">
+            <img src="images/chain.png" alt="cube" id="chain2">
+            <img src="images/chain.png" alt="cube" id="chain3">
+            <img src="images/chain.png" alt="cube" id="chain4">
+        </div>
+
+        <button type="button" id="createnewblock" onclick="createBlock()">Create New block</button>
+        <button type="button" id="verifyblock" onclick="verifyBlock()">Verify it!!</button>
+
+        <div class="static" id="p2ptext">
+Another way the blockchains can secure themselves is by being distributed. Instead of a central authority to manage the chain, blockchains use a peer to peer networks that anyone can join. When someone joins the network, they get a full copy of the blockchain.
+
+Whenever a new block is added, a copy of it is send to each node in the network. After the verification of the block by each node, the block is appended to the existing chain. Thus, consensus amongst all the nodes, has to be reached for addition of a new block. Everyone needs to agree as to which block is valid and which isn’t. Tampered or invalid blocks are rejected by other nodes in the network.
+
+Click on the buttons to visually see the creation and verification of block !!
+
+        </div>
+
+        <button type="button" class="prev" onclick="document.location='proofofwork.html'">Previous</button>
+        <button type="button" class="next" onclick="document.location='conclusion.html'">Next</button>
+
+    </div>
+</body>
+</html>

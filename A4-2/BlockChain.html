@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="blockchain.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Block Chain</title>
+</head>
+<body>
+    <div class="title" id="blockchain-title">The Block - 'Chain' </div>
+    <div class="static" id="blockchaintext">As noted previously, the hash of a block renders it immutable and secure. As you can see the hash of each of the block is <span id="s1"><u>connected to the previous block</u></span>. The first block is a bit special because it is not connected to any previous block. This block is called the <span id="s2"><u>Genesis Block</u></span> and the “Previous Hash” value of this block is “0000”.
+
+If you tamper with any block, this will cause the data inside the block to change. This causes the hash value of the block to change. This, in turn, will make the subsequent blocks invalid because they no longer store valid hash of the previous block. Thus changing a single block will render the following blocks invalid.
+
+Click on any block to tamper with it.
+
+    </div>
+    <button type="button" class="prev" onclick="document.location='block.html'">Previous</button>
+    <button type="button" class="next" onclick="document.location='proofofwork.html'">Next</button>
+</body>
+</html>

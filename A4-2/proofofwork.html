@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="proofofwork.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Proof of Concept</title>
+</head>
+<body>
+    <div>
+        <div class="title" id="proofofworktitle">Proof of Work </div>
+        <div class="cube">
+            <img src="images/cubes.jpg" alt="cube" id="cube1">
+            <img src="images/cubes.jpg" alt="cube" id="cube2">
+            <img src="images/cubes.jpg" alt="cube" id="cube3">
+            <img src="images/cubes.jpg" alt="cube" id="cube4">
+        </div>
+
+        <img src="images/chain.png" alt="cube" id="bigchain1">
+        <img src="images/chain.png" alt="cube" id="bigchain2">
+        <img src="images/chain.png" alt="cube" id="bigchain3">
+
+        <div class="paper">
+            <img src="images/paper.png" alt="cube" id="paper1">
+            <img src="images/paper.png" alt="cube" id="paper2">
+            <img src="images/paper.png" alt="cube" id="paper3">
+            <img src="images/paper.png" alt="cube" id="paper4">
+        </div>
+
+
+        <img src="images/clock1.png" alt="clock" id="clock">
+        <div id="timer">Time: 00 secs</div>
+
+        <div id="binary1">10001000011010110101011011010101</div>
+        <div id="binary2">10010110011010110001011011000001</div>
+        <div id="binary3">10010000000010110101011011111101</div>
+        <div id="binary4">10010000011101110101011011100101</div>
+
+        <div class="static" id="proofofworktext">
+Given the efficiency of the modern technology, one can effectively tamper with a block and re-calculate the hashes of all the other blocks. Thus, hashing is not enough to prevent tampering of a block in the block-chain. To mitigate this is a new concept called “proof-of-work”.
+
+Proof-of-work is a mechanism that slows down the creation of new blocks. In the case of Bitcoins, it takes about 10 minutes to calculate the required proof-of-work and add a new block to the chain. This mechanism makes it very hard to tamper with the block, because if one tampers with a block, proof of work needs to be calculated for all the subsequent blocks.
+
+Click on any block to tamper with it and calculate the required proof-of-work.
+
+Thus the security of a block comes from its creative use of hashing and proof-of-work.
+        </div>
+        <div id="ratio">1 second = 1 minute</div>
+
+        <button type="button" class="prev" onclick="document.location='BlockChain.html'">Previous</button>
+        <button type="button" class="next" onclick="document.location='p2p.html'">Next</button>
+
+    </div>
+</body>
+</html>

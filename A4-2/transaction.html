@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="transaction.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="interactivity" id="wrapper">
+        <div class="title" id="transactiontitle">The Shared ledger in BlockChain </div>
+
+        <img src="images/girl.png" alt="Girl1" class="girl1">
+        <img src="images/boy.png" alt="Boy1" class="boy1">
+        <img src="images/girl1.png" alt="Girl2" class="girl2">
+        <img src="images/boy1.png" alt="Boy2" class="boy2">
+
+        <img src="images/notepad.png" alt="notepad" id="notepad1">
+        <img src="images/notepad.png" alt="notepad" id="notepad2">
+        <img src="images/notepad.png" alt="notepad" id="notepad3">
+        <img src="images/notepad.png" alt="notepad" id="notepad4">
+
+        <label id="textnotepad1" class="hide">
+            A pays B $10
+            A pays C $30
+            D pays C $5
+        </label>
+        <label id="textnotepad2" class="hide">
+            A pays B $10
+            A pays C $30
+            D pays C $5
+        </label>
+        <label id="textnotepad3" class="hide">
+            A pays B $10
+            A pays C $30
+            D pays C $5
+        </label>
+        <label id="textnotepad4" class="hide">
+            A pays B $10
+            A pays C $30
+            D pays C $5
+        </label>
+
+        <img src="images/notepad.png" alt="notepad" id="bignotepad">
+        <button type="button" class="next" onclick="document.location='block.html'">Next</button>
+        <label id="textbignotepad" class="hide">
+            A pays B $10
+            A pays C $30
+            D pays C $5
+        </label>
+
+
+        <div id="showarrows" class="hide">
+            <img src="images/arrow.png" alt="arrow1"  id="arrow1">
+            <img src="images/arrow.png" alt="arrow2"  id="arrow2">
+            <img src="images/arrow.png" alt="arrow3"  id="arrow3">
+        </div>
+
+        <button type="button" id="transaction" onclick="DrawArrows()">Start Transaction</button>
+
+        <label class="name" id = "name1">A) Pinky</label>
+        <label class="name" id = "name2">B) Tom</label>
+        <label class="name" id = "name3">C) Lara</label>
+        <label class="name" id = "name4">D) John</label>
+        <label class="ledgername" id = "ledgername">Distributed Ledger</label>
+
+        <div class="static" id="transactiontext">Before moving into the specifics, let’s understand the concept of a shared ledger. A ledger is a document wherein all the financial transactions are recorded. A bank maintains a ledger that contains the transaction information whenever you buy something using your credit/debit card.
+
+In a shared ledger, transactions are recorded only once across all the business network. Each participant has the duplicate copy of the ledger and they are permissioned to see only the transactions they are authorized to view. Participants have identities that link them to the transaction. Click on the 'Start Transaction' button to see how a transaction is recorded.
+        </div>
+        <button type="button" class="prev" onclick="document.location='index.html'">Previous</button>
+
+    </div>
+
+</body>
+</html>

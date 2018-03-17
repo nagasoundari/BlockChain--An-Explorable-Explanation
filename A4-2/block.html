@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <!-- <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="block.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="title" id="blocktitle">The Block </div>
+
+    <div class="static" id="blocktext"><div id="line1">Let’s take a closer look at a block. Each block contains some data, the hash of the block and the hash of the previous block. Click on a side of the block to see what information it contains.</div>
+<div id="line2">The data that is stored inside a block depends on the type of blockchain. The blockchain of a bitcoin, for example, stores the detail about the transaction such as the sender, receiver and the amount of bitcoins.</div>
+<div id="line3">The hash of the block is its ‘fingerprint’. It identifies a block and all of its contents and is always unique, just like a fingerprint. The hash of the block is calculated using sophisticated algorithms. Changing the data of the block will cause the hash to change. Thus, hashes are useful when you want to detect changes in a block.</div>
+<div id="line4">The third element inside each block is the hash of the previous block.</div>
+    </div>
+
+    <button type="button" class="prev" onclick="document.location='transaction.html'">Previous</button>
+    <button type="button" class="next" onclick="document.location='BlockChain.html'">Next</button>
+
+</body>
+</html>

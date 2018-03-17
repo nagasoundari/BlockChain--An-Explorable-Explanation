@@ -1,0 +1,833 @@
+/*Styling For Blockchain*/
+/************** Common styling ******************/
+
+body{
+    overflow: hidden;
+    zoom: 100%;
+    white-space: nowrap;
+}
+
+.next{
+    position: fixed;
+    right: 80px;
+    bottom:55px;
+    width: 85px;
+    height: 35px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.prev{
+    position: fixed;
+    right:225px;
+    bottom:55px;
+    width: 85px;
+    height: 35px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+img.boy2, .girl1, .girl2, .boy1, .boypp2, .girlpp1, .girlpp2, .boypp1{
+    width: 125px;
+    height: 125px;
+}
+
+/************** End of Common styling ******************/
+/****************Introduction page styling*******************************************/
+#indextitle{
+    position: absolute;
+    left: 500px;
+    top: 42px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: "Lato Black";
+}
+
+#introtext {
+    position: relative;
+    left: 80px;
+    top: 150px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Lato;
+    white-space: pre-wrap;
+    word-break: normal;
+    width: 568px;
+    height: 450px;
+    text-align: justify;
+}
+
+img.titleimg{
+    width: 704px;
+    height: 510px;
+    position: relative;
+    left: 730px;
+    top: -245px;
+}
+
+/*************Block and Block Chain styling**********************/
+
+polygon:hover {
+    fill-opacity: .7;
+}
+
+.polygon{
+    stroke-linecap: round;
+}
+
+path {
+    fill: none;
+    stroke: #999;
+}
+circle {
+    fill: none;
+    stroke: #aaa;
+}
+span{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+#blocktitle{
+    position: absolute;
+    left: 640px;
+    top: 42px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: "Lato Black";
+}
+
+#blocktext {
+    position: relative;
+    left: 80px;
+    top: 173px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Lato;
+    white-space: pre-wrap;
+    word-break: normal;
+    width: 622px;
+    height: 380px;
+    text-align: justify;
+}
+
+#blockchain-title{
+    position: absolute;
+    left: 582px;
+    top: 42px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: "Lato Black";
+}
+
+#blockchaintext {
+    position: relative;
+    left: 87px;
+    top: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Lato;
+    white-space: pre-wrap;
+    word-break: normal;
+    width: 533px;
+    height: 380px;
+    text-align: justify;
+}
+
+
+/*styling for transaction.html*/
+
+img#notepad1, #notepad2, #notepad3, #notepad4{
+    width: 110px;
+    height: 110px;
+}
+
+#transactiontitle{
+    position: absolute;
+    left: 442px;
+    top: 42px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: "Lato Black";
+}
+
+#transactiontext {
+    position: relative;
+    left: 79px;
+    top: -620px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Lato;
+    white-space: pre-wrap;
+    word-break: normal;
+    width: 500px;
+    height: 450px;
+    text-align: justify;
+}
+
+.girl1 {
+    position: relative;
+    left: 800px;
+    top: 150px;
+}
+
+.girl2 {
+    position: relative;
+    left: 555px;
+    top: 480px;
+}
+
+.boy1 {
+    position: relative;
+    left: 1000px;
+    top: 150px;
+}
+
+.boy2 {
+    position: relative;
+    left: 765px;
+    top: 480px;
+}
+
+#notepad1{
+    position: relative;
+    left: 145px;
+    top: 155px;
+}
+
+#notepad2 {
+    position: relative;
+    left: 650px;
+    top: 155px;
+}
+
+#notepad3 {
+    position: relative;
+    left: -70px;
+    top: 485px;
+}
+
+#notepad4 {
+    position: relative;
+    left: 440px;
+    top: 485px;
+}
+
+#bignotepad {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    right: -930px;
+    top:-100px;
+}
+
+
+#textnotepad1 {
+    position: relative;
+    font-weight: bold;
+    white-space: pre-wrap;
+    font-size: 11px;
+    left:652px;
+    top:70px;
+    font-family: Calibri;
+}
+
+#textnotepad2 {
+    position: relative;
+    font-weight: bold;
+    white-space: pre-wrap;
+    font-size: 11px;
+    left:1272px;
+    top:0px;
+    font-family: Calibri;
+}
+#textnotepad3 {
+    position: relative;
+    font-weight: bold;
+    white-space: pre-wrap;
+    font-size: 11px;
+    left:667px;
+    top:257px;
+    font-family: Calibri;
+}
+#textnotepad4 {
+    position: relative;
+    font-weight: bold;
+    white-space: pre-wrap;
+    font-size: 11px;
+    left:1288px;
+    top:185px;
+    font-family: Calibri;
+}
+
+#textbignotepad {
+    position: relative;
+    font-weight: bold;
+    white-space: pre-wrap;
+    font-size: 16px;
+    left: 945px;
+    top: -215px;
+    font-family: Calibri;
+}
+
+#arrow1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 973px;
+    top: -480px;
+}
+
+#arrow2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 882px;
+    top: -145px;
+    transform: rotateY(180deg);
+}
+
+#arrow3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 460px;
+    top: -310px;
+    transform: rotateY(180deg);
+    transform: rotate(90deg);
+}
+
+.name{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Lato;
+}
+
+#name1{
+    position: relative;
+    left: 647px;
+    top: -640px;
+}
+
+#name2{
+    position: relative;
+    left: 912px;
+    top: -640px;
+}
+
+#name3{
+    position: relative;
+    left: 548px;
+    bottom: 130px;
+}
+
+#name4{
+    position: relative;
+    left: 831px;
+    bottom: 130px;
+}
+
+.ledgername{
+    position: relative;
+    right: -558px;
+    bottom: 287px;
+    font-weight: bold;
+    font-size: 16px ;
+    font-family: Lato;
+}
+
+.showtextbignotepad{
+    opacity: 1;
+    transition: opacity 0.7s 2s ease-out;
+}
+
+.showtextnotepad1, .showtextnotepad2, .showtextnotepad3, .showtextnotepad4{
+    opacity: 1;
+    transition: opacity 0.7s 1.5s ease-out;
+}
+
+#transaction {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 953px;
+    top: -65px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*End of styling transaction page*/
+/*Styling of p2p.html*/
+
+img#newblock1, #newblock2, #newblock3, #newblock4{
+    width: 49px;
+    height: 49px;
+}
+
+img#chain1, #chain2, #chain3, #chain4{
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+}
+
+img.chain{
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    top:-10px;
+}
+
+img.cube{
+    width: 45px;
+    height: 45px;
+}
+
+#p2ptitle{
+    position: absolute;
+    left: 519px;
+    top: 42px;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: "Lato Black";
+}
+
+#p2ptext{
+    position: relative;
+    left: 75px;
+    top: -304px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Lato;
+    white-space: pre-wrap;
+    word-break: normal;
+    width: 555px;
+    height: 450px;
+    text-align: justify;
+}
+
+.girlpp1 {
+    position: relative;
+    left: 800px;
+    top: 150px;
+}
+
+.girlpp2 {
+    position: relative;
+    left: 555px;
+    top: 480px;
+}
+
+.boypp1 {
+    position: relative;
+    left: 1000px;
+    top: 150px;
+}
+
+.boypp2 {
+    position: relative;
+    left: 765px;
+    top: 480px;
+}
+
+.blockchain-a{
+    position: relative;
+    left: 760px;
+    top: 165px;
+}
+
+.blockchain-b{
+    position: relative;
+    left: 1130px;
+    top: 115px;
+}
+
+.blockchain-c{
+    position: relative;
+    left: 1130px;
+    bottom: -396px;
+}
+
+.blockchain-d{
+    position: relative;
+    left: 776px;
+    bottom: -350px;
+}
+
+#createnewblock {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 956px;
+    top: -30px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#verifyblock {
+    width: 168px;
+    height: auto;
+    position: relative;
+    left: 785px;
+    top: 35px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 0.7s ease-out;
+}
+.hide {
+    opacity: 0;
+}
+
+.showblock {
+    opacity: 1;
+    transition: opacity 0.7s ease-out;
+}
+
+
+#newblock1 {
+    position: relative;
+    left: 1000px;
+    top: -33px;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+#newblock2 {
+    position: relative;
+    left: 1310px;
+    top: -33px;
+}
+
+#newblock3 {
+    position: relative;
+    left: 909px;
+    bottom: -300px;
+}
+
+#newblock4 {
+    position: relative;
+    right: -1204px;
+    bottom: -297px;
+}
+
+
+#chain1 {
+    position: relative;
+    left: 968px;
+    top: -74px;
+}
+
+#chain2 {
+    position: relative;
+    right: -1307px;
+    top: -75px;
+}
+
+#chain3 {
+    position: relative;
+    left: 927px;
+    bottom: -257px;
+}
+
+#chain4 {
+    position: relative;
+    right: -1248px;
+    bottom: -255px;
+}
+
+.showchain{
+    opacity: 1;
+    transition: opacity 0.7s 1s ease-out;
+}
+/***********************Styling of ProofofWork.html************************************************************/
+img#cube1, #cube2, #cube3, #cube4{
+    width: 100px;
+    height: 100px;
+}
+
+img#paper1, #paper2, #paper3, #paper4{
+    width: 173px;
+    height:129px;
+}
+
+img#bigchain1, #bigchain2, #bigchain3 {
+    width: 70px;
+    height: 70px;
+    transform: rotate(45deg);
+}
+
+img#clock {
+    width: 151px;
+    height: 88px;
+    position: relative;
+    left: 1295px;
+    top: -270px;
+}
+
+#proofofworktitle{
+    position: absolute;
+    left: 575px;
+    top: 42px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: "Lato Black";
+}
+
+#proofofworktext{
+    position: relative;
+    left: 64px;
+    top: -786px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Lato;
+    white-space: pre-wrap;
+    word-break: normal;
+    width: 525px;
+    height: 450px;
+    text-align: justify;
+}
+
+
+.showbigchain{
+    opacity: 1;
+    transition: opacity 0.7s 0.5s ease-out;
+}
+
+#cube1 {
+    position: relative;
+    left: 680px;
+    top: 230px;
+    cursor: pointer;
+}
+
+#cube2 {
+    position: relative;
+    left: 780px;
+    top: 230px;
+    cursor: pointer;
+}
+
+#cube3 {
+    position: relative;
+    left: 880px;
+    top: 230px;
+    cursor: pointer;
+}
+
+#cube4 {
+    position: relative;
+    left: 980px;
+    top: 230px;
+    cursor: pointer;
+}
+
+#bigchain1 {
+    position: relative;
+    left: 798px;
+    top: 145px;
+}
+
+#bigchain2 {
+    position: relative;
+    left: 928px;
+    top: 145px;
+}
+
+#bigchain3 {
+    position: relative;
+    left: 1055px;
+    top: 145px;
+}
+
+#paper1{
+    position: relative;
+    top: 250px;
+    left: 640px;
+}
+
+#paper2{
+    position: relative;
+    top: 250px;
+    left: 680px;
+}
+
+#paper3{
+    position: relative;
+    top: 250px;
+    left: 720px;
+}
+
+#paper4{
+    position: relative;
+    top: 250px;
+    left: 760px;
+}
+
+#timer{
+    position: relative;
+    top: -329px;
+    left: 1313px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+div#binary1 {
+    position: relative;
+    top: 28px;
+    right: -667px;
+    width: 120px;
+    height: 120px;
+    word-break: break-all;
+    font-weight: bolder;
+    font-size: 22px;
+    white-space: normal;
+}
+
+div#binary2{
+    position:relative;
+    top: -92px;
+    right: -885px;
+    width:120px;
+    height: 120px;
+    word-break:break-all;
+    font-weight: bolder;
+    font-size: 22px;
+    white-space: normal;
+}
+
+div#binary3{
+    position:relative;
+    top: -212px;
+    right: -1100px;
+    width:120px;
+    height: 120px;
+    word-break:break-all;
+    font-weight: bolder;
+    font-size: 22px;
+    white-space: normal;
+}
+
+div#binary4{
+    position:relative;
+    top: -332px;
+    left: 1317px;
+    width:120px;
+    height: 120px;
+    word-break:break-all;
+    font-weight: bolder;
+    font-size: 22px;
+    white-space: normal;
+}
+
+#ratio {
+    position: relative;
+    font-size: 15px;
+    font-family: Lato;
+    font-weight: bold;
+    top: -1214px;
+    left: 1305px;
+  }
+
+.blink_time {
+    top: 100px;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+/*********************************End of ProofofWork Styling***************************/
+/**************************Styling for conclusion page*******************************/
+
+
+#conclusiontitle{
+    position: absolute;
+    left: 621px;
+    top: 42px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: "Lato Black";
+}
+
+#conclusiontext {
+    position: relative;
+    left: 80px;
+    top: 177px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Lato;
+    white-space: pre-wrap;
+    word-break: normal;
+    width: 568px;
+    height: 450px;
+    text-align: justify;
+}
+
+#conclu{
+    width: 704px;
+    height: 432px;
+    position: relative;
+    left: 730px;
+    top: -210px;
+}
+
+
+
+
+
+
+
+
+
